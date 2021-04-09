@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Document</title>
+
+   <link rel="stylesheet" href="css/all.css">
+</head>
+
+<body>
+   <header class="head_bg d-flex align-items-center">
+      <div class="container">
+         <div class="row justify-content-center">
+            <div class="col-10">
+               <div class="row align-items-center">
+                  <div class="col-4">
+                     <div class="logo"></div>
+                  </div>
+                  <div class="col-4">
+                     <div class="bodyData">
+                        <div class="form-group">
+                           <label for="body_H" class="bodyData_text">身高 cm</label>
+                           <input type="number" name="" id="body_H" placeholder="請輸入身高" class="form-control bodyData_value bodyData_H">
+                        </div>
+                        <div class="form-group">
+                           <label for="body_W" class="bodyData_text">體重 kg</label>
+                           <input type="number" name="" id="body_W" placeholder="請輸入體重" class="form-control bodyData_value bodyData_W">
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-4 d-flex justify-content-center">
+                     <div class="calculate">
+                        <button class="count">
+                           看結果
+                        </button>
+                        
+                     </div>
+                  </div>
+               </div>
+               
+            </div>
+         </div>
+      </div>
+   </header>
+
+   <main class="main">
+      <div class="container">
+         <h2 class="bmiTitle text-center">BMI 紀錄</h2>
+         <div class="row d-flex justify-content-center">
+            <div class="col-8">
+               <ul class="bmiList">
+   
+               </ul>
+            </div>
+         </div>
+      </div>
+   </main>
+
+   <footer>
+      <div class="icon"></div>
+   </footer>
+
+
+   <!-- Optional JavaScript -->
+   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"></script>
+
+
+   <script src="js/BMI.js"></script>
+</body>
+
+</html>
